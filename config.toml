@@ -1,4 +1,4 @@
-baseURL = 'https://fabianobizarro.dev/blog/'
+baseURL = 'https://blog.fabiiano.com'
 languageCode = 'pt-BR'
 title = 'My New Hugo Site'
 theme = "papermod"
