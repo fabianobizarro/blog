@@ -1,0 +1,33 @@
+ShowReadingTime = true
+comments = true
+defaultTheme = 'auto'
+ShowShareButtons = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+ShareButtons = ["linkedin", "twitter"]
+
+[homeInfoParams]
+Title = "Olá👋🏻"
+Content = """
+Welcome to demo of hugo's theme PaperMod. 
+- **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX. 
+- Do give a 🌟 on Github ! 
+- PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+"""
+
+[[socialIcons]]
+name = "github"
+url = "https://github.com/fabianobizarro"
+
+[[socialIcons]]
+name = "twitter"
+url = "https://twitter.com/fabianobizarro"
+
+[[socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/fabianobizarro/"
+
+[[socialIcons]]
+name = "cv"
+url = "https://fabianobizarro.dev/"

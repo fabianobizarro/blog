@@ -1,4 +1,7 @@
 baseURL = 'https://blog.fabianobizarro.dev'
 languageCode = 'pt-BR'
-title = 'My New Hugo Site'
+title = 'Blog do Bizarro'
 theme = "papermod"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
