@@ -1,7 +1,10 @@
 ---
-title: "Uma análise dos Paradigmas Programação"
+title: "Paradigmas de Programação"
 date: 2022-07-14T21:49:05-03:00
 draft: false
+cover:
+    image: "images/library-cover.jpg"
+    alt: "Library"
 ---
 
 Fala pessoal, beleza?  

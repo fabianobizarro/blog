@@ -8,12 +8,10 @@ ShowToc = true
 ShareButtons = ["linkedin", "twitter"]
 
 [homeInfoParams]
-Title = "Olá👋🏻"
+Title = "Olá! 👋🏻"
 Content = """
-Welcome to demo of hugo's theme PaperMod. 
-- **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX. 
-- Do give a 🌟 on Github ! 
-- PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+- Bem vindo(a) a este espaço, onde devo escrever coisas que (não) fazem sentido.
+- Mas fique à vontade! Pode vir que tem café e pão de queijo.
 """
 
 [[socialIcons]]
