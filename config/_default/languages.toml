@@ -1,0 +1,20 @@
+
+[en]
+languageName = "Portugues"
+weight = 1
+
+[en.taxonomies]
+category = "categorias"
+tag = "tags"
+series = "series"
+
+[[en.menu.main]]
+name = "Arquivo"
+url = "archives"
+weight = 5
+
+[[en.menu.main]]
+name = "Pesquisar"
+url = "search/"
+weight = 10
+

@@ -1,0 +1,31 @@
+ShowReadingTime = true
+comments = true
+defaultTheme = 'auto'
+ShowShareButtons = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+ShareButtons = ["linkedin", "twitter"]
+
+[homeInfoParams]
+Title = "Olá! 👋🏻"
+Content = """
+- Bem vindo(a) a este espaço, onde devo escrever coisas que (não) fazem sentido.
+- Mas fique à vontade! Pode vir que tem café e pão de queijo.
+"""
+
+[[socialIcons]]
+name = "github"
+url = "https://github.com/fabianobizarro"
+
+[[socialIcons]]
+name = "twitter"
+url = "https://twitter.com/fabianobizarro"
+
+[[socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/fabianobizarro/"
+
+[[socialIcons]]
+name = "cv"
+url = "https://fabianobizarro.dev/"
