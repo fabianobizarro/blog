@@ -1,7 +1,0 @@
-baseURL = 'https://fabianobizarro.dev/blog/'
-languageCode = 'pt-BR'
-title = 'Blog do Bizarro'
-theme = "papermod"
-
-[outputs]
-home = [ "HTML", "RSS", "JSON" ]
