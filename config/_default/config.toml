@@ -1,7 +1,11 @@
 baseURL = 'https://fabianobizarro.dev/blog/'
 languageCode = 'pt-BR'
 title = 'Blog do Bizarro'
-theme = "papermod"
+theme = "PaperMod"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
+
+[minify]
+disableXML =  true
+minifyOutput = true
