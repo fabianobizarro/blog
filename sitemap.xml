@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://fabianobizarro.dev/blog/</loc><lastmod>2022-07-14T21:49:05-03:00</lastmod></url><url><loc>https://fabianobizarro.dev/blog/posts/paradigmas-programacao/</loc><lastmod>2022-07-14T21:49:05-03:00</lastmod></url><url><loc>https://fabianobizarro.dev/blog/posts/</loc><lastmod>2022-07-14T21:49:05-03:00</lastmod></url><url><loc>https://fabianobizarro.dev/blog/archives/</loc></url><url><loc>https://fabianobizarro.dev/blog/categorias/</loc></url><url><loc>https://fabianobizarro.dev/blog/search/</loc></url><url><loc>https://fabianobizarro.dev/blog/series/</loc></url><url><loc>https://fabianobizarro.dev/blog/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://fabianobizarro.dev/blog/</loc>
+    <lastmod>2022-07-14T21:49:05-03:00</lastmod>
+  </url><url>
+    <loc>https://fabianobizarro.dev/blog/posts/paradigmas-programacao/</loc>
+    <lastmod>2022-07-14T21:49:05-03:00</lastmod>
+  </url><url>
+    <loc>https://fabianobizarro.dev/blog/posts/</loc>
+    <lastmod>2022-07-14T21:49:05-03:00</lastmod>
+  </url><url>
+    <loc>https://fabianobizarro.dev/blog/archives/</loc>
+  </url><url>
+    <loc>https://fabianobizarro.dev/blog/categorias/</loc>
+  </url><url>
+    <loc>https://fabianobizarro.dev/blog/search/</loc>
+  </url><url>
+    <loc>https://fabianobizarro.dev/blog/series/</loc>
+  </url><url>
+    <loc>https://fabianobizarro.dev/blog/tags/</loc>
+  </url>
+</urlset>
