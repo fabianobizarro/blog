@@ -5,6 +5,3 @@ theme = "papermod"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
-
-[resources]
-Fingerprint = "sha512"
