@@ -1,7 +1,7 @@
 --- 
 title: "Programação Estruturada" 
 date: 2022-07-24T19:56:45-03:00 
-draft: true 
+draft: false 
 --- 
 
 Fala pessoal, beleza? 
