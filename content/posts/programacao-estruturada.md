@@ -10,9 +10,9 @@ Hoje vamos ver sobre o paradigma de programação estruturada, um pouco de sua h
 
 ## O Paradigma  
 
-Este paradigma tem como características o uso de estruturas de controles de do fluxo de execução do código. São as estruturas `if/else`, `while`, `do`, `for` e qualquer outro tipo de estrutura que você conhecer. 
+Este paradigma tem como características o uso de estruturas de controles do fluxo de execução do código. São as estruturas `if/else`, `while`, `do`, `for` e qualquer outro tipo de estrutura que você conhecer. 
 
-As estruturas condicionais (`if/else`) nos permitem executar um bloco de código somente de uma condição lógica for satisfeita, ou caso o contrário também. 
+As estruturas condicionais (`if/else`) nos permitem executar um bloco de código somente se uma condição lógica for satisfeita, ou caso o contrário também. 
 
 ```cs 
 if (<condição>) { 
@@ -71,9 +71,7 @@ Vamos ao que interessa, resolver o FizzBuzz usando o paradigma Imperativo Estrut
 
 Primeiro, começamos declarando o nome do pacote e importando a biblioteca `fmt` que usaremos para escrever as informações no console. 
 
-Depois declaramos uma variável `count` que usaremos para  
-
-facilitar o controle da execução. Vou deixar com o valor de 15, mas caso você queira rodar o fizzbuzz com um valor diferente, basta alterar esta variável. 
+Depois declaramos uma variável `count` que usaremos para  facilitar o controle da execução. Vou deixar com o valor de 15, mas caso você queira rodar o fizzbuzz com um valor diferente, basta alterar esta variável. 
 
 Em seguida, nós inserimos uma estrutura de repetição para executar um bloco de código repetidas vezes. 
 
