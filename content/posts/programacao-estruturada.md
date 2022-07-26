@@ -6,13 +6,13 @@ draft: false
 
 Fala pessoal, beleza? 
 
-Hoje vamos ver sobre o paradigma de programação estruturada, um pouco de sua história, e vamos resolver o FizzBuzz de duas maneiras diferentes para comparação. 
+Hoje vamos ver sobre o paradigma de programação estruturada, um pouco de sua história e vamos resolver o FizzBuzz de duas maneiras diferentes para comparação. 
 
 ## O Paradigma  
 
-Este paradigma tem como características o uso de estruturas de controles de do fluxo de execução do código. São as estruturas `if/else`, `while`, `do`, `for` e qualquer outro tipo de estrutura que você conhecer. 
+Este paradigma tem como características o uso de estruturas de controles do fluxo de execução do código. São as estruturas `if/else`, `while`, `do`, `for` e qualquer outro tipo de estrutura que você conhecer. 
 
-As estruturas condicionais (`if/else`) nos permitem executar um bloco de código somente de uma condição lógica for satisfeita, ou caso o contrário também. 
+As estruturas condicionais (`if/else`) nos permitem executar um bloco de código somente se uma condição lógica for satisfeita, ou caso o contrário também. 
 
 ```cs 
 if (<condição>) { 
@@ -22,9 +22,9 @@ else {
    //execução de um bloco de código 
 } 
 ``` 
-A sintaxe vai variar de acordo com a linguagem que você usar, mas a ideia é a mesma. 
+A sintaxe pode variar de acordo com a linguagem que você usar, mas a ideia é a mesma. 
 
-As estruturas de repetição (for, while, do, etc.) nos permitem executar um bloco de código repetidas vezes, até que uma condição seja alcançada para que aquele fluxo seja finalizado. 
+As estruturas de repetição (`for`, `while`, `do`, etc.) nos permitem executar um bloco de código repetidas vezes, até que uma condição seja alcançada para que aquele fluxo seja finalizado. 
 
 ```cs
 while (<condição>) { 
@@ -38,16 +38,16 @@ Em seu livro Arquitetura Limpa, Robert Martin fala o seguinte:
 > “A programação estruturada impõe disciplina sobre a transferência direta do controle” 
 
 Mas o que isso quer dizer?  
-Quer dizer que você não pode (ou pelo menos não deve) seguir o fluxo de um código de forma aleatório ou desordenada; isso deve ser feito através dessas estruturas de controle que as linguagens possuem, para evitar que você tenha problemas na execução do seu código. 
+Quer dizer que você não pode (ou pelo menos não deve) seguir o fluxo de um código de forma aleatória ou desordenada; isso deve ser feito através dessas estruturas de controle que as linguagens possuem, para evitar que você tenha problemas na execução do seu código. 
 
 Já ouviu falar no GOTO? Sim, é isso que queremos evitar. 
  
 
 ## Um pouco de história 
 
-A programação estruturada foi descoberta por Edsger Dijkstra em 1968. Ele conseguiu demonstrar que o uso de saltos (`goto`) era prejudicial para a estrutura de um programa. 
+A programação estruturada foi descoberta por Edsger Dijkstra em 1968. Ele conseguiu demonstrar que o uso de saltos (`goto`) é prejudicial para a estrutura de um programa. 
 
-Imagine um programa, e uma ordem de execução do código, onde cada linha é executada, seguida pela próxima, iniciando da primeira linha do seu código. Com esse comando GOTO, você consegue fazer com que a execução “salte” para um determinado local do seu código, e continue a execução de lá. 
+Imagine um programa e uma ordem de execução do código, onde cada linha é executada, seguida pela próxima, iniciando da primeira linha do seu código. Com esse comando GOTO, você consegue fazer com que a execução “salte” para um determinado local do seu código e continue de lá. 
 
 Em 1968, Dijkstra publicou um artigo intitulado “Go To Statement Considered Harmful” onde ele falava dos problemas do uso da instrução GOTO, e sobre as estruturas de controle.  
 
@@ -60,7 +60,7 @@ A linguagem que vou utilizar para resolver o FizzBuzz é a Go (ou golang, como t
 
 Go foi criada em 2007 por Robert Griesemer, Rob Pike e Ken Thompson (sim, o mesmo cara da linguagem C e do Unix) dentro do Google; seu objetivo é ser expressiva, eficiente e eficaz para escrever programas confiáveis e robustos. 
 
-Tem como inspiração a linguagem C, onde herdou a sintaxe das expressões, passagem de parâmetro por valor, ponteiros, entre outras coisas. 
+Uma de suas inspirações é a linguagem C, onde herdou a sintaxe das expressões, passagem de parâmetro por valor, ponteiros, entre outras coisas. 
 
 É uma linguagem poderosa, simples e fácil de aprender. 
 
@@ -70,10 +70,17 @@ Tem como inspiração a linguagem C, onde herdou a sintaxe das expressões, pass
 Vamos ao que interessa, resolver o FizzBuzz usando o paradigma Imperativo Estrutural. 
 
 Primeiro, começamos declarando o nome do pacote e importando a biblioteca `fmt` que usaremos para escrever as informações no console. 
+```go
+package main
 
-Depois declaramos uma variável `count` que usaremos para  
+import "fmt"
 
-facilitar o controle da execução. Vou deixar com o valor de 15, mas caso você queira rodar o fizzbuzz com um valor diferente, basta alterar esta variável. 
+func main() {
+
+}
+```
+
+Depois declaramos uma variável `count` que usaremos para  facilitar o controle da execução. Vou deixar com o valor de 15, mas caso você queira rodar o fizzbuzz com um valor diferente, basta alterar esta variável. 
 
 Em seguida, nós inserimos uma estrutura de repetição para executar um bloco de código repetidas vezes. 
 
@@ -95,7 +102,7 @@ if i % 3 == 0 && i % 5 == 0 {
 
 Se você não entendeu nada do que está escrito ali: 
  - O operador `%` é responsável por retornar o resto da divisão entre dois números. 
-    - Ex.: 10 % 2 representa o resto da divisão de 10 por 2; 
+    - Ex.: `10 % 2` representa o resto da divisão de 10 por 2;
  - `&&` é o operador lógico AND, ele retorna **verdadeiro** se os dois operadores forem **verdadeiro** também.; 
 - Uma tradução para o português seria: Se o resto da divisão entre `i` e 3 é zero e entre `i` e 5 também é zero, então execute o bloco de código. 
 
@@ -108,7 +115,7 @@ if i % 3 == 0 && i % 5 == 0 {
 ``` 
 
 Para simplificar um pouco, ao invés de verificar se o número é múltiplo de 3 e de 5, podemos verificar se ele é múltiplo de 15, 
-deixando o código um pouco mais limpo, mas com o mesmo resultado 
+deixando o código um pouco mais limpo, mas com o mesmo resultado.
 
 ```go 
 if i % 15 == 0 { 
@@ -135,7 +142,11 @@ if i % 3 == 0 {
 Caso o contrário, nós escrevemos o número na tela. 
 Juntando tudo, nós temos o seguinte código: 
 
-```go 
+```go
+package main
+
+import "fmt"
+
 func main() { 
     count := 15 
 
@@ -226,7 +237,7 @@ Até a próxima!
 
 ## Referências 
 
-- Arquitetura Limpa, Robert C. Martin 
-- A Linguagem de Programação Go, Alan A. A. Donovan, Brian W. Kernighan 
+- Arquitetura Limpa - Robert C. Martin 
+- A Linguagem de Programação Go - Alan A. A. Donovan, Brian W. Kernighan 
 
  
