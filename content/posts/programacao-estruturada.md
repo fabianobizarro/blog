@@ -14,8 +14,8 @@ Este paradigma tem como características o uso de estruturas de controles de do 
 
 As estruturas condicionais (`if/else`) nos permitem executar um bloco de código somente de uma condição lógica for satisfeita, ou caso o contrário também. 
 
-```go 
-if <condição> { 
+```cs 
+if (<condição>) { 
    //execução de um bloco de código 
 } 
 else { 
@@ -26,8 +26,8 @@ A sintaxe vai variar de acordo com a linguagem que você usar, mas a ideia é a 
 
 As estruturas de repetição (for, while, do, etc.) nos permitem executar um bloco de código repetidas vezes, até que uma condição seja alcançada para que aquele fluxo seja finalizado. 
 
-```go 
-while <condição> { 
+```cs
+while (<condição>) { 
    //execução de um bloco de código 
 } 
 ``` 
