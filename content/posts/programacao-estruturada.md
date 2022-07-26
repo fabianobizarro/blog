@@ -218,7 +218,11 @@ A estrutura de repetição faz com que não seja preciso usar esses saltos, e no
 
 Vimos como o paradigma estrutural nos restringe quanto aos saltos no código, e como isso é benéfico para o desenvolvimento de software. 
 
-Foi possível ter uma noção da evolução das linguagens com o tempo, e como essa evolução afeta a experiencia de programação. 
+Foi possível ter uma noção da evolução das linguagens com o tempo, e como essa evolução afeta a experiência de programação.
+
+Resolvemos o FizzBuzz usando a programação imperativa estruturada, agora temos uma base para comparar com os próximos paradigmas.
+
+Até a próxima!
 
 ## Referências 
 
