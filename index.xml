@@ -6,7 +6,19 @@
     <description>Recent content on Blog do Bizarro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 14 Jul 2022 21:49:05 -0300</lastBuildDate><atom:link href="https://fabianobizarro.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jul 2022 19:56:45 -0300</lastBuildDate><atom:link href="https://fabianobizarro.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programação Estruturada</title>
+      <link>https://fabianobizarro.dev/blog/posts/programacao-estruturada/</link>
+      <pubDate>Sun, 24 Jul 2022 19:56:45 -0300</pubDate>
+      
+      <guid>https://fabianobizarro.dev/blog/posts/programacao-estruturada/</guid>
+      <description>Fala pessoal, beleza?
+Hoje vamos ver sobre o paradigma de programação estruturada, um pouco de sua história, e vamos resolver o FizzBuzz de duas maneiras diferentes para comparação.
+O Paradigma Este paradigma tem como características o uso de estruturas de controles de do fluxo de execução do código. São as estruturas if/else, while, do, for e qualquer outro tipo de estrutura que você conhecer.
+As estruturas condicionais (if/else) nos permitem executar um bloco de código somente de uma condição lógica for satisfeita, ou caso o contrário também.</description>
+    </item>
+    
     <item>
       <title>Paradigmas de Programação</title>
       <link>https://fabianobizarro.dev/blog/posts/paradigmas-programacao/</link>
