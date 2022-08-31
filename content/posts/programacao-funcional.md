@@ -89,7 +89,7 @@ Um exemplo é o uso da notação prefixa (ou notação polonesa) onde o operador
 
 Outra característica é o uso de parênteses na representação das expressões (S-expressions) e nas chamadas de funções. Para chamar uma função `callFunc` em uma linguagem baseada em C por exemplo, basta chamar `callFunc()` desta forma; em Lisp a sintaxe ficaria assim: `(callfunc)`, com o nome da função entre parêntesis.
 
-### Clojure
+**Clojure**
 
 Clojure é uma linguagem de programação (um dialeto de Lisp) criada em 2007 por Rich Hickey. É uma linguagem dinâmica e roda em cima da JVM (Java Virtual Machine).
 
