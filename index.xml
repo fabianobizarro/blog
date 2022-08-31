@@ -6,7 +6,20 @@
     <description>Recent content on Blog do Bizarro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 24 Jul 2022 19:56:45 -0300</lastBuildDate><atom:link href="https://fabianobizarro.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Aug 2022 22:59:44 -0300</lastBuildDate><atom:link href="https://fabianobizarro.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programação Funcional</title>
+      <link>https://fabianobizarro.dev/blog/posts/programacao-funcional/</link>
+      <pubDate>Fri, 19 Aug 2022 22:59:44 -0300</pubDate>
+      
+      <guid>https://fabianobizarro.dev/blog/posts/programacao-funcional/</guid>
+      <description>Fala pessoal, beleza?
+Hoje vamos ver sobre o paradigma de programação funcional, um pouco de sua história e vamos resolver o FizzBuzz usando a linguagem Clojure.
+O Paradigma O paradigma funcional tem como base o uso de funções para a realização das operações. Quando falamos em função, é literalmente uma função matemática (aquelas funções que você deve ter visto na escola)
+Considere a função:
+f(x) = x * 2 avaliar este texto</description>
+    </item>
+    
     <item>
       <title>Programação Estruturada</title>
       <link>https://fabianobizarro.dev/blog/posts/programacao-estruturada/</link>
