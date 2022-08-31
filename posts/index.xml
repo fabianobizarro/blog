@@ -17,7 +17,7 @@
 Hoje vamos ver sobre o paradigma de programação funcional, um pouco de sua história e vamos resolver o FizzBuzz usando a linguagem Clojure.
 O Paradigma O paradigma funcional tem como base o uso de funções para a realização das operações. Quando falamos em função, é literalmente uma função matemática (aquelas funções que você deve ter visto na escola)
 Considere a função:
-f(x) = x * 2 avaliar este texto</description>
+f(x) = x * 2 Essa função recebe um parâmetro (X) e retorna o dobro do valor (x * 2).</description>
     </item>
     
     <item>
