@@ -27,7 +27,7 @@ Uma função pode ser categorizada entre **pura** e **impura**.
 - As funções impuras são o contrário, elas podem ter efeitos colaterais e resultado da função pode variar a cada execução de um determinado parâmetro de entrada.
 
 
-### Imutabilidade
+**Imutabilidade**
 
 Uma característica importante neste paradigma é a imutabilidade: uma vez que um dado é criado, ele não é modificado por estas funções, mas é gerado um novo valor com base na informação original. Isto te dá a garantia de que você não vai perder o valor original de sua variável.
 
@@ -35,7 +35,7 @@ Como no exemplo anterior `f(x) = x * 2`, a variável `x` terá sempre o mesmo va
 
 Você pode achar que a imutabilidade não faz sentido ou não seja necessária para seu código, mas em muitos casos, ter a garantia de que sua informação não será modificada é extremamente importante.
 
-### Composição
+**Composição**
 
 Outra característica bastante utilizada é a composição. Isso permite com que você possa agrupar funções que irão processar algo em sequência - o resultado de uma função é passado para outra, e assim é feito em sequência. Pense em um fluxo onde você pode adicionar ou remover algum processamento de forma muito fácil, além do fato de que você pode testar essas funções separadamente de forma prática.
 
@@ -104,16 +104,28 @@ addNumbers(2, 2); // 4
 
 Ficaria assim em Clojure:
 
-```clojure
-(def addNumbers [x y]
+```clj
+(defn addNumbers [x y]
 	(+ x y))
 
 (addNumbers 2 2) ;; 4
 ```
 
-No começo parece estranho, mas você se acostuma.
 
-## Resolvendo o FixzBuzz
+Aquele exemplo que comentei sobre a composição, onde podemos utilizar funções de forma encadeada? Em Clojure, podemos ter algo assim:
+
+```clj
+(defn add1 [n] (+ n 1))
+(defn sub1 [n] (- n 1))
+(defn div2 [n] (/ n 2))
+(defn mult3 [n] (* n 3))
+
+(-> 6 add1 sub1 div2 mult3) ;; 4
+
+```
+Sim, no começo parece estranho, mas você se acostuma.
+
+## Resolvendo o FizzBuzz
 
 Vamos ao que interessa, resolver o FizzBuzz usando o paradigma declarativo funcional.
 
@@ -177,7 +189,7 @@ Nós vamos usar a função `range` para gerar uma coleção de número de 1 até
 (defn fizzbuzz [n]
   (range 1 n))
 
-(fizzbuzz 10);; (1 2 3 4 5 6 7 8 9)
+(fizzbuzz 10) ;; (1 2 3 4 5 6 7 8 9)
 ```
 
 Se chamarmos essa função, ela retornará uma coleção com os números gerados.
