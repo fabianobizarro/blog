@@ -18,12 +18,10 @@ Considere a função:
 f(x) = x * 2
 ```
 
-avaliar este texto 
-
 Essa função recebe um parâmetro (X) e retorna o dobro do valor (x * 2). Esta função não faz nada além de calcular o dobro do valor (para qualquer valor informado, sempre será calculado o dobro) e nunca altera o valor de X - ele sempre vai ser X independente de qualquer coisa. Este conceito de função é aplicado para qualquer tipo de processamento neste paradigma.
 
 Uma função pode ser categorizada entre **pura** e **impura**.
-- As funções puras são aquelas que sempre retornam o mesmo valor, de acordo com os parâmetros passados, e não possuem efeitos colaterais (um efeito colateral seria uma alteração de uma variável, chamado a um banco de dados, interação com o teclado ou qualquer coisa do tipo); daí o nome “pura”.
+- As funções puras são aquelas que sempre retornam o mesmo valor, de acordo com os parâmetros passados, e não possuem efeitos colaterais (um efeito colateral seria uma alteração de uma variável, chamada a um banco de dados, interação com o teclado ou qualquer coisa do tipo); daí o nome “pura”.
 - As funções impuras são o contrário, elas podem ter efeitos colaterais e resultado da função pode variar a cada execução de um determinado parâmetro de entrada.
 
 
@@ -81,7 +79,7 @@ Lisp é uma linguagem criada baseada no Cálculo Lambda. Lisp foi criada em 1958
 
 Hoje quando falamos em Lisp nos referimos à uma família de linguagens, família que possui vários “dialetos” como Racket, Common Lisp, Scheme e Clojure, que vamos utilizar hoje. 
 
-Logo, se você conhecer alguma linguagem que “é da família Lisp”, essa linguagem provavelmente terá uma sintaxe muito parecida com todas as da família.
+Logo, se você conhecer alguma linguagem que “é da família Lisp”, essa linguagem provavelmente terá uma sintaxe muito parecida com todas as outras linguagens da família.
 
 É uma linguagem dinâmica e multi paradigma que possui uma sintaxe, digamos, peculiar (ao menos para quem nunca teve contato), fazendo uso de recursos e padrões diferentes dos que estamos acostumados nas linguagens de programação mais comuns hoje em dia.
 
@@ -164,7 +162,7 @@ Tendo essa expressão em mente, vamos usá-las para montar nossa expressão de v
     :else (str i))
 ```
 
-Agora, basta adicionar essa expressão em nossa função mapNumber e temos nosso mapeamento completo. Para validar a função, basta chamá-la passando algum número e verificar o retorno.
+Agora, basta adicionar essa expressão em nossa função `mapNumber` e temos nosso mapeamento completo. Para validar a função, basta chamá-la passando algum número e verificar o retorno.
 
 ```clj
 (defn mapNumber
