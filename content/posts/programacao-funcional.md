@@ -1,7 +1,7 @@
 ---
 title: "Programação Funcional"
 date: 2022-08-19T22:59:44-03:00
-draft: true
+draft: false
 ---
 
 Fala pessoal, beleza? 
@@ -240,10 +240,14 @@ O código final fica assim:
    (fizzbuzz 10))) 
 ```
 
-Repare em como ficou o código e como ele fica diferente de uma linguagem imperativa. A sensação que eu tenho é que estou escrevendo uma receita de como eu quero o resultado do meu código, e não como o computador deve excecutar as instruções.
+Repare como ficou o código e como ele fica diferente de uma linguagem imperativa. A sensação que eu tenho é que estou escrevendo uma receita de como eu quero o resultado do meu código, e não como o computador deve excecutar as instruções.
 
 ## Conclusão
 
+Vimos como o paradigma funcional se difere do imperativo, tanto no estilo de programação, quanto em suas características. Diferente de um paradigma imperativo, aqui nós não temos instruções de execução como `for` ou `if/else`, mas declarações de funcões e mapeamento de dados. O resultado é o meso, mas conseguims atingi-lo de formas diferentes. 
 
+Também conhecemos uma linguagem diferente do que provavelmente estamos acostumados, com características peculiares. Acredito que vale a pena dar uma atenção para uma lingaguem da família Lisp.
 
-## Referências 
+Por fim, implementamos o FizzBuzz usando uma lingaugem declarativa funcional.
+
+Até a próxima!
